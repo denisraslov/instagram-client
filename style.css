@@ -1,0 +1,51 @@
+
+.app-login
+{
+	text-align: center;
+}
+
+.app-login-title
+{
+	padding: 40px 0;
+}
+
+.app-photos
+{
+	text-align: center;
+}
+
+.app-photos-item
+{
+	display: inline-block;
+	padding: 30px;
+}
+
+.app-photos-item img
+{
+	width: 306px;
+	height: 306px;
+	border-radius: 4px;
+}
+
+.app-photo
+{
+	text-align: center;
+	padding: 40px 0;
+}
+
+.app-photo-text
+{
+	padding: 20px;
+}
+
+.app-header
+{
+	padding: 20px 40px;
+}
+
+.app-header-logout
+{
+	float: right;
+	text-decoration: underline;
+	cursor: pointer;
+}

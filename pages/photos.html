@@ -1,0 +1,8 @@
+<div class="app-header">
+	<div class="app-header-logout" ng-click="logout();">Logout</div>
+</div>
+<div class="app-photos">
+	<div ng-repeat="photo in photos" class="app-photos-item">
+		<a href="#/photo/{{photo.id}}"><img src="{{photo.images.low_resolution.url}}">
+	</div>
+</div>

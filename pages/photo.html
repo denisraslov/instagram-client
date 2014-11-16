@@ -1,0 +1,16 @@
+<div class="app-header">
+	<div class="app-header-logout" ng-click="logout();">Logout</div>
+</div>
+</div>
+<div class="app-photo">
+	<div ng-repeat="photo in photos">
+		<div>
+			<img src="{{photo.images.standard_resolution.url}}" />
+		</div>
+		<div class="app-photo-text">
+			<h4>
+			{{photo.caption.text || "Описание отсутсвует"}}
+			</h4>
+		</div>
+	</div>
+</div>
