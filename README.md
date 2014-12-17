@@ -1,4 +1,4 @@
 Instagram client
 ================
 
-The exampe of Instagram client based on API
+The exampe of Instagram client based on Angular.js
